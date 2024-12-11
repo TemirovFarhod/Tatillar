@@ -134,13 +134,14 @@ namespace Tatillar
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.Location = new System.Drawing.Point(274, 399);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(229, 60);
             this.button1.TabIndex = 6;
             this.button1.Text = "Login";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // guna2Elipse2
             // 

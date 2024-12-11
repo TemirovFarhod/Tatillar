@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Tatillar
 {
-    public partial class Xodim : Form
+    public partial class Tatill_kuni : Form
     {
-        public Xodim()
+        public Tatill_kuni()
         {
             InitializeComponent();
-        }
-
-        private void Xodim_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

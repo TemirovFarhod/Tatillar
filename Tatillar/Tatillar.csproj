@@ -60,6 +60,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tatill_kuni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tatill_kuni.Designer.cs">
+      <DependentUpon>Tatill_kuni.cs</DependentUpon>
+    </Compile>
     <Compile Include="Xodim.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Tatill_kuni.resx">
+      <DependentUpon>Tatill_kuni.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Xodim.resx">
       <DependentUpon>Xodim.cs</DependentUpon>
     </EmbeddedResource>
